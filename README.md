@@ -35,6 +35,25 @@ A função acessar() valida se os campos de email e senha estão preenchidos. Se
 
 ``excluir(i)``: Remove um nome da lista e da tabela HTML com base na posição fornecida.
 
+`DESCRIÇÃO DA NOVA ALTERAÇÃO FEITA NO PROJETO`
+
+![](img/email.png)
+
+Cria um array vazio chamado "salvaEmail" com o propósito de armazenar os endereços de e-mail dos usuários conforme eles são adicionados à lista.
+
+![](img/email2.png)
+
+Adiciona um novo endereço de e-mail ao final do array "salvaEmail". Isso ocorre na função salvarUser(), onde, após o usuário inserir o nome e o e-mail, o e-mail é armazenado no array para que possa ser exibido na tabela.
+
+![](img/email3.png)
+
+Esta linha define o valor do campo de entrada com id "emailUser" para o valor localizado no array "salvaEmail" no índice (i - 1). O que faz: Preenche o campo de entrada emailUser com o valor do item no índice (i - 1) do array salvaEmail.
+
+![](img/email4.png) 
+
+ "deleteRow(i)" remove a linha da tabela com o índice i. Esse índice corresponde à linha da tabela que será removida.
+Remove um item do array salvaEmail. Usa o índice (i - 1) para determinar o ponto de início da remoção. O segundo argumento 1 especifica que um item deve ser removido a partir desse índice.
+
 ## `Funcionalidades`
 
 O código permite a validação de login e o gerenciamento de uma lista de usuários, incluindo funcionalidades para adicionar, editar e excluir nomes.
