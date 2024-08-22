@@ -59,7 +59,7 @@ Remove um item do array salvaEmail. Usa o índice (i - 1) para determinar o pont
 O código permite a validação de login e o gerenciamento de uma lista de usuários, incluindo funcionalidades para adicionar, editar e excluir nomes.
 
 ## `Resultado` 
-![](img/resultado.gif)
+![](img/resulta.gif)
 
 ## `Fontes`
 
